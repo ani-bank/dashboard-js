@@ -11,19 +11,6 @@ export default function App() {
   })
   return (
     <View style={styles.container}>
-      {/* <GooglePlacesAutoComplate
-      placehoder="Search"
-      onPress={(data, details = null) => {
-        console.log(data, details)
-      }}
-      query={{
-        key: "AIzaSyBgSn39yF8M5D_KVr5D3QWhECfjeoXKmKM",
-        language: "en"
-      }}
-      >
-
-      </GooglePlacesAutoComplate> */}
-
       <MapView
         style={styles.map}
 
